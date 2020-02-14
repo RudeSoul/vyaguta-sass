@@ -1,0 +1,29 @@
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    max-width: 74.4375em;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.onhoverGreen:hover {
+    // @include hover {
+    // @extend %hover;
+    color: $hover-green;
+    cursor: pointer;
+    // }
+}
+
+svg {
+    cursor: pointer;
+}
+
+hr {
+    border: 1px solid #9E9E9E;
+    opacity: 30%;
+
+
+}
