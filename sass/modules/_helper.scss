@@ -4,17 +4,19 @@
 }
 
 .container {
-    max-width: 74.4375em;
+    max-width: 73.125em;
     width: 100%;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-.onhoverGreen:hover {
-    // @include hover {
-    // @extend %hover;
-    color: $hover-green;
-    cursor: pointer;
-    // }
+.onhoverGreen {
+    @include hover {
+        // @extend %hover;
+        color: $hover-green;
+        cursor: pointer;
+    }
 }
 
 svg {
@@ -22,8 +24,22 @@ svg {
 }
 
 hr {
-    border: 1px solid #9E9E9E;
-    opacity: 30%;
+    // border: 1px solid #9E9E9E;
+    opacity: 20%;
+    margin: 0;
+    padding: 0;
 
+
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+
+    display: flex;
+    padding: 0;
+    margin: 10px 0 6px 0;
 
 }
