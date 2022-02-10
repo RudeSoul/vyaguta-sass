@@ -37,7 +37,7 @@
     "connect-history-api-fallback": "^1.6.0",
     "gh-pages": "^1.2.0",
     "imagemin-cli": "^5.0.0",
-    "node-sass": "^4.13.1"
+    "node-sass": "^7.0.0"
   },
   "dependencies": {
     "browser-sync": "^2.26.7",
